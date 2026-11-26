@@ -1,0 +1,24 @@
+name: Sync Daily AI Price Summary
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 1 * * *"
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch sanitized Top-1 summary from AijuBox
+        run: |
+          curl -fsSL --max-time 20 \
+            -A "Mozilla/5.0 (compatible; AijuBox-Price-Mirror/1.0)" \
+            https://aijubox.com/llms.txt -o README.md
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore: sync daily AI subscription & API price summary"
+            git push
+          fi
