@@ -2,10 +2,23 @@
 
 > 对比ChatGPT Plus、Claude Pro、Gemini、Cursor等AI账号各区官方订阅低价与汇率差价，聚合全球AI实时资讯、主流大模型参数与API参考价格、Codex重置监控与AI服务目录。
 
-- **数据刷新时间（北京时间 Asia/Shanghai）**：2026-11-26T14:01:28+08:00
+- **数据刷新时间（北京时间 Asia/Shanghai）**：2026-11-27T17:00:10+08:00
 - **权威口径**：所有时间均为 `+08:00`；官价汇率换算仅供参考，以官方结算页为准；大模型 API 参考价来源 OpenRouter / models.dev / Artificial Analysis；Codex 重置监控仅追踪公开信号，非 OpenAI 官方通知。
 - **隐私与安全边界**：本文件仅汇总公开参考数据，绝不包含任何第三方店铺直达外链、货源联系方式、社区私密内容、用户隐私或会员专属 AI 筛选/日报结果。
 - **完整扩展数据文档**：https://aijubox.com/llms-full.txt
+
+## 主流 AI 官方订阅最低价速查（钩子级 Top 1 概览）
+
+| 产品 | 代表套餐 | 周期 | 最低参考地区 | 渠道 | 原币标价 | 约合 CNY | 约合 USD | 专题链接 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ChatGPT | ChatGPT Go | 月付 | 埃及 | 官网直购 | 220 EGP | ¥26.85 | $4.03 | https://aijubox.com/model-prices/official/chatgpt |
+| Claude | Claude Pro | 月付 | 巴基斯坦 | iOS App Store | 4900.00 PKR | ¥117.92 | $17.69 | https://aijubox.com/model-prices/official/claude |
+| Google AI / Gemini | Google AI Plus | 月付 | 玻利维亚 | 官网直购 | 34.99 BOB | ¥19.72 | $2.96 | https://aijubox.com/model-prices/official/gemini |
+| Cursor | Pro | 月付 | 官网未限定地区 | 官网直购 | 20 USD | ¥133.30 | $20.00 | https://aijubox.com/model-prices/official/cursor |
+| Grok | SuperGrok | 月付 | 土耳其 | iOS App Store | 1299.99 TRY | ¥170.96 | $25.65 | https://aijubox.com/model-prices/official/grok |
+| Perplexity - AI Search & Chat | Perplexity Pro | 月付 | 加拿大 | iOS App Store | 25.00 CAD | ¥116.96 | $17.55 | https://aijubox.com/model-prices/official/perplexity |
+| Kimi | Andante | 月付 | 中国 | iOS App Store | 49.00 CNY | ¥49.00 | $7.35 | https://aijubox.com/model-prices/official/kimi |
+| Manus - AI Agent & Automation | Manus Basic | 月付 | 加拿大 | iOS App Store | 25.00 CAD | ¥116.96 | $17.55 | https://aijubox.com/model-prices/official/manus |
 
 ## 主流大模型 API 参考价格速查（各厂商代表 Top 1 · USD / 1M Tokens）
 
@@ -13,7 +26,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | OpenAI | GPT-6.2 Sol Healthcare | 1M | $2 | $10 | 否 | https://aijubox.com/models/vendor/openai |
 | Anthropic | Claude Fable 5.2 | 1M | $8 | $40 | 否 | https://aijubox.com/models/vendor/anthropic |
-| DeepSeek（深度求索） | DeepSeek V4.1 Flash 1017 | 1M | $0.15 | $0.6 | 是 | https://aijubox.com/models/vendor/deepseek |
+| DeepSeek（深度求索） | DeepSeek V4.1 Flash 1017 | 1M | $0.3 | $1.2 | 是 | https://aijubox.com/models/vendor/deepseek |
 | Google | Gemini 4 Neon | 1M | $3 | $15 | 否 | https://aijubox.com/models/vendor/google |
 | 阿里通义 Qwen | Qwen4 Max | 1M | $1.425 | $4.275 | 否 | https://aijubox.com/models/vendor/qwen |
 | xAI | Grok 4.7 | 500K | $2 | $6 | 否 | https://aijubox.com/models/vendor/x-ai |
@@ -25,10 +38,20 @@
 
 ## Codex 公开重置信号最新状态
 
-- 观测时间（北京时间）：2026-11-26T12:49:06.825751+08:00
+- 观测时间（北京时间）：2026-11-27T06:34:17.788146+08:00
 - 累计已确认重置：38 次（普通 36 / 储备 2）
 - 最近一次确认时间：2026-10-03T05:18:48+08:00；历史平均间隔：247.0 小时
 - 监控页面：https://aijubox.com/codex-reset-monitor
+
+## 海外 VPS 与云服务器起步价概览（钩子级摘要）
+
+- 收录 208 家商家 / 3931 款在售套餐 / 648 份真机实测（更新：2026-11-27T14:19:51+08:00），详情：https://aijubox.com/vps
+| 代表商家 | 特性 | 覆盖地区 | 折合月均起步参考 |
+| --- | --- | --- | --- |
+| Akamai Cloud | 官方云 API | 其他 | $5/月起（约 ¥36.1/月起） |
+| ByteVirt | 含 16 份实测 | 美国 / 中国香港 / 中国台湾 | $1/月起（约 ¥7.22/月起） |
+| AkileCloud（AK） | 含 16 份实测 | 中国香港 / 中国台湾 / 日本 | $1.01/月起（约 ¥7.3/月起） |
+| ISIF Cloud | 含 16 份实测 | 中国香港 / 中国台湾 / 日本 | $1.8/月起（约 ¥13/月起） |
 
 ## 公开栏目导航
 
@@ -46,6 +69,7 @@
 - [积分商城](https://aijubox.com/mall): 使用AI聚盒唯一积分兑换官方虚拟权益与实物周边商品，了解在架商品类型、服务端核销结算流程与个人兑换订单查询方式。
 - [排行榜](https://aijubox.com/leaderboard): 查看AI聚盒社区公开积分排行榜与按北京时间统计的邀请贡献榜单，了解榜单维度切换、时间区间口径与翻页浏览规则。
 - [网站说明](https://aijubox.com/help/site-rules): 查看AI聚盒平台栏目导览、积分与30天会员规则、第三方资源提交审核流程以及社区合规守则，具体条款以服务端生效版本为准。
+- [全球云资源](https://aijubox.com/vps): 每日凌晨聚合海外 VPS 主机商与 Vultr、Linode 等官方云在售套餐，提供原币标价与折合月均参考价对比；登录解锁 1 小时直达干净官网与 IP 纯净度、三网晚高峰测速、回程路由和硬件跑分实测。
 
 ## 热门 AI 官价与模型厂商专题
 
